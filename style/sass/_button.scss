@@ -1,0 +1,19 @@
+.btn {
+    font-size: $font-14;
+    font-weight: 700;
+    text-align: center;
+    color:$btn-icon-color;
+}
+.btn:hover{
+    background-color:$btn-icon-color;
+    color: white        ;
+}
+.btn1 {
+    color: #222831;
+}
+
+.btn2 {
+    background-color:$btn-icon-color;
+    color: #EEEEEE;
+
+}

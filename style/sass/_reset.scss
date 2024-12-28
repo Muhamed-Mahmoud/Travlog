@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 100px;
+    font-family: Circular Std;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    display: flow-root;
+    font-family: Circular Std;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dcdde2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff87b9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5D50C6;
+}
+a,
+span {
+    display: inline-block;
+    font-family: Circular Std;
+    color: $primary-color;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+picture,
+img {
+    display: block;
+}
+img {
+    width: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Circular Std;
+}
+
+p {
+    color: $secondary-color;
+    font-family: inter;
+}
+.main-title{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+    text-align: center;
+    h3{
+        color: $primary-color;
+        letter-spacing: 5px;
+    }
+    h2{
+        color: #191825;
+    }
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    // gap: 64px;
+  }
+  section{
+    padding-top: 4rem;
+  }
+  .gradient-circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    opacity: 0.4;
+    filter: blur(250px);
+    border-radius: 50%
+  }
